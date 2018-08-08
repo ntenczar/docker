@@ -1,4 +1,4 @@
-FROM ntenczar/elixir:1.6.3
+FROM ntenczar/elixir:1.7.1
 MAINTAINER Nate Tenczar <ntenczar@gmail.com>
 
 RUN apk --update add bash erlang-crypto erlang-syntax-tools erlang-parsetools \

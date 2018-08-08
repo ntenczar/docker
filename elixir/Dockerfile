@@ -1,7 +1,7 @@
 FROM ntenczar/erlang:20.1.7
 MAINTAINER Nate Tenczar <ntenczar@gmail.com>
 
-ENV ELIXIR_VERSION 1.6.3
+ENV ELIXIR_VERSION 1.7.1
 
 RUN apk --update add --virtual build-dependencies wget ca-certificates && \
     wget --no-check-certificate https://github.com/elixir-lang/elixir/releases/download/v${ELIXIR_VERSION}/Precompiled.zip && \
